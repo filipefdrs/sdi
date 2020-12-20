@@ -2,7 +2,7 @@
   $(function(){
 
     $('.sidenav').sidenav();
-    $('.dropdown-trigger').dropdown({hover: true});
+    $('.dropdown-trigger').dropdown({hover: false});
     $('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
     $('.modal').modal();
 
