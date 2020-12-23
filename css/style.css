@@ -6,6 +6,29 @@
     overflow: auto;
 }
 
+.social-media {
+  list-style-type: none !important;
+  margin: 0px auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  max-width: 128px !important;
+}
+
+.social-media li a {
+  display: block !important; 
+  text-align: center !important;
+  height: 32px !important;
+  width: 32px !important;
+  text-indent: -9999px !important;
+  overflow: hidden !important;
+  background-size: 32px !important;
+  
+}
+
+#linkedin { background-image: url('../img/linkedin.png'); }
+#lattes { background-image: url('../img/lattes.png'); }
+#github { background-image: url('../img/github.png'); }
+
 .input-field label {
     color:rgb(13, 113, 228);
   }
